@@ -1,0 +1,45 @@
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    font-family: cursive;
+    font-size: larger;
+    color: aquamarine;
+
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+th, td {
+    padding: 20px;
+    border: 2px solid purple;
+  }
+
+thead {
+    background-color: #d3c5e4;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eec7e4;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #d3c5e4;
+}
+
+.element {
+    font-family: monospace;
+    text-align: center;
+    background-color: #df91cb
+
+}
